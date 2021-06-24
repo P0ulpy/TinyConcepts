@@ -99,7 +99,7 @@ async function send(inputText)
             'accept-language': 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
             'content-type': 'application/json',
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
-            'content-length' : body.lenght,
+            'content-length' : body.length,
         },
         'body': JSON.stringify(body)
     });
