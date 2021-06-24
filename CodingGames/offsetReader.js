@@ -7,8 +7,7 @@ for (let i = 0; i < height; i++) map.push(readline().split(' ').map(e => parseIn
 // for map view
 console.warn(map.reduce((view, row) => { row.forEach(e => view += e); view += "\n"; return view; }, ""));
 
-// verry eavy offset
-// issue  : way too eavy
+// very heavy offset
 const offset = 
 [
     // top
@@ -76,7 +75,7 @@ for(let y = 0; y < height; y++)
 
     for(let x = 0; x < width; x++)
     {
-        // we searching for 0 surounded by 1 so we check all 0 as the center
+        // we searching for 0 surounded by 1 so we check all 0 as a center
         if(lines.current[x] === 0)
         {
             // check 8 positions
